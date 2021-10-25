@@ -1,0 +1,14 @@
+package com.apisero.greenfield;
+
+public class Assignment3 {
+
+	public static void main(String[] args) {
+		int i = 10;
+		Integer j = i;
+		System.out.println("Autoboxing of Integer: "+j);
+		int k = j;
+		System.out.println("AutoUnboxing of Integer: "+k);
+
+	}
+
+}

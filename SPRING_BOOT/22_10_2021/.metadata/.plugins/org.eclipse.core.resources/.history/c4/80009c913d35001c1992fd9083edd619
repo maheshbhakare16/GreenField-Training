@@ -1,0 +1,23 @@
+package com.apisero.greenfield;
+
+public class Assignment3 {
+
+	public static void main(String[] args) {
+//		System.out.println("Integer: ");
+//		int i = 10;
+//		Integer j = i;
+//		System.out.println("Autoboxing of int: "+j);
+//		int k = j;
+//		System.out.println("AutoUnboxing of Integer: "+k);
+//		System.out.println("\n--------------------------------------------------------------\n");
+		System.out.println("Byte: ");
+		byte i = 10;
+		Byte j = i;
+		System.out.println("Autoboxing of int: "+j);
+		byte k = j;
+		System.out.println("AutoUnboxing of Integer: "+k);
+		System.out.println("\n--------------------------------------------------------------\n");
+
+	}
+
+}

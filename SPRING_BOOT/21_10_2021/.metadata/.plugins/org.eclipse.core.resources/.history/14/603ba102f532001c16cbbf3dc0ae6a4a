@@ -1,0 +1,8 @@
+package com.apisero.greenfield;
+
+public class AnimalMain {
+	public static void main(String[] args) {
+		Animal tiger = new Animal("Tiger", "Mammals", "Non_Vegeterian");
+		System.out.println(tiger);
+	}
+}

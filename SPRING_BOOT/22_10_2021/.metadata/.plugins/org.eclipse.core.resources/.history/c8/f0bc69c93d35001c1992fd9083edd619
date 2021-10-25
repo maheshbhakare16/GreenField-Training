@@ -1,0 +1,101 @@
+package com.apisero.greenfield;
+
+import java.util.Scanner;
+
+public class Assignment3 {
+	void ByteAutoBoxUnBox()
+	{
+		
+	}
+	void ShortAutoBoxUnBox()
+	{
+		
+	}
+	void IntegerAutoBoxUnBox()
+	{
+		
+	}
+	void FloatAutoBoxUnBox()
+	{
+		
+	}
+	void DoubleAutoBoxUnBox()
+	{
+		
+	}
+	void CharacterAutoBoxUnBox()
+	{
+		
+	}
+	void BooleanAutoBoxUnBox()
+	{
+		
+	}
+	void LongAutoBoxUnBox()
+	{
+		
+	}
+	public static void main(String[] args) {
+		System.out.println("Integer: ");
+		int i = 10;
+		Integer j = i;
+		System.out.println("Autoboxing of int: "+j);
+		int k = j;
+		System.out.println("AutoUnboxing of Integer: "+k);
+		System.out.println("\n--------------------------------------------------------------\n");
+		System.out.println("Byte: ");
+		byte i = 10;
+		Byte j = i;
+		System.out.println("Autoboxing of int: "+j);
+		byte k = j;
+		System.out.println("AutoUnboxing of Integer: "+k);
+		System.out.println("\n--------------------------------------------------------------\n");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		int choice;
+		char ch;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("-----------------------------------------------------");
+		
+		do
+		{
+			System.out.println("-----------------------------------------------------");
+			System.out.print("1. Byte\n2. Short\n3. Integer\n4. Long\n5. Float\\n6. Double\\n7. Character\\n8. Boolean\nEnter Your Choice: ");
+			choice = sc.nextInt();
+			switch(choice)
+			{
+			case 1:
+				System.out.println(c.add());
+				break;
+			case 2: 
+				System.out.println(c.sub());
+				break;
+			case 3:
+				System.out.println(c.mult());
+				break;
+			case 4:
+				System.out.println(c.divide());
+				break;
+			default:
+				System.out.println("Enter Proper Choice....");
+			}
+			System.out.print("Do you want to Continue: ");
+			ch = sc.next().charAt(0);
+		}while(ch == 'y');
+		
+		
+
+	}
+
+}

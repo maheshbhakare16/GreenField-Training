@@ -1,0 +1,9 @@
+package com.apisero.greenfield;
+
+public class MobileMain {
+	public static void main(String[] args)
+	{
+		Mobile samsung = new Mobile("Samsung", "Note10","12-10-2018", 6,128,"Snapdragon 855+");
+		System.out.println(samsung);
+	}
+}

@@ -1,0 +1,12 @@
+package com.apisero.greenfield;
+
+public class Armstrong 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

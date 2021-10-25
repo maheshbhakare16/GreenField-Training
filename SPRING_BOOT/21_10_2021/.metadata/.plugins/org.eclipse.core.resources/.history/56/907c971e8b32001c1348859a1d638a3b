@@ -1,0 +1,8 @@
+package com.apisero.greenfield;
+
+public class Bike {
+	private String Bike_no;
+	private String Chassis_no;
+	private String Owner_Name;
+	private String Ownned_Date;
+}

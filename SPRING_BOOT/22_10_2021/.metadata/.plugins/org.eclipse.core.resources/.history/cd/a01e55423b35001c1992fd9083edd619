@@ -1,0 +1,11 @@
+package com.apisero.greenfield;
+
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		String s = new String("Mahesh");
+		System.out.println(s);//calls to string method to print string which is overrided from object class to string class
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.apisero.greenfield;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MobileMain {
+	public static void main(String[] args) {
+		List l = new ArrayList();
+		l.add(new Mobile("Samsung", "Note10", "12-10-2018", 6, 128, "Snapdragon 855+"));
+		System.out.println(l);
+	}
+}

@@ -1,0 +1,6 @@
+package com.apisero.greenfield;
+
+public abstract class Shape 
+{
+	public double abstract area();
+}

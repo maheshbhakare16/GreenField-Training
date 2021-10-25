@@ -1,0 +1,11 @@
+package com.apisero.greenfield;
+
+public class BankAccount {
+	private static String bank_name;
+	private String account_no;
+	private String account_holder_name;
+	private String ifsc_code;
+	private String bank_branch;
+	private float balance;
+	
+}

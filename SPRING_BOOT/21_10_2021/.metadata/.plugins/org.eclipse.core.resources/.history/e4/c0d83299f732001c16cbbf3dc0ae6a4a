@@ -1,0 +1,27 @@
+package com.apisero.greenfield;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		int choice,value1,value2;
+		
+		Scanner sc = new Scanner(System.in);
+		do
+		{
+			System.out.println("-----------------------------------------------------");
+			System.out.print("Enter Value 1: ");
+			value1 = sc.nextInt();
+			System.out.print("Enter Value 1: ");
+			value2 = sc.nextInt();
+			System.out.println("-----------------------------------------------------");
+			System.out.print("1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n Enter Your Choice: ");
+			choice = sc.nextInt();
+			switch(choice)
+			{
+			case 1:
+				
+			}
+		}
+	}
+
+}

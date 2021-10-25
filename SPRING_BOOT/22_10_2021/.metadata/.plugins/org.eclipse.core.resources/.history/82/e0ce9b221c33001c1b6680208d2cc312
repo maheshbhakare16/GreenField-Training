@@ -1,0 +1,20 @@
+package com.apisero.greenfield;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		ArrayList<Student> al = new ArrayList<Student>();
+		al.add(new Student(1,"XYZ",87.45));
+		al.add("Two");
+		System.out.println(al);
+		Iterator itr = al.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+	}
+
+}
